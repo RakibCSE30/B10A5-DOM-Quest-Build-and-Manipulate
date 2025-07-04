@@ -120,24 +120,44 @@
 
 
             <div class="flex flex-col gap-3 w-full">
-  <input id="input-amount"
-    type="text"
-    placeholder="Write Donation Amount"
-    class="w-full h-11 px-4 rounded-md border border-base-300 text-[#baadad] placeholder:text-[#baadad] focus:outline-none"
-  />
+                <input id="input-amount" type="text" placeholder="Write Donation Amount"
+                    class="w-full h-11 px-4 rounded-md border border-base-300 text-[#baadad] placeholder:text-[#baadad] focus:outline-none" />
 
-  <button id="donate-btn" class="w-full h-11 px-4 rounded-md text-black bg-[#B4F461]">
-    Donate Now
-  </button>
-</div>
+                 
+
+                <!-- modal -->
+                 <!-- Open the modal using ID.showModal() method -->
+<button id="donate-btn" class="btn   bg-[#B4F461] w-full h-11 px-4 rounded-md text-black" onclick="my_modal_1.showModal()">Donate Now</button>
+<dialog id="my_modal_1" class="modal">
+  <div class="modal-box  ">
+    <div class=" flex flex-col items-center text-center ">
+
+        <h1 class=" text-4xl  font-bold mb-4">Congrates</h1>
+        <img src="assets/coin.png" alt="">
+        <p class="py-4 text-[#697574]">You have donate for HumanKind</p>
+        <h1 class="text-xl font-bold mb-6">Successfuly</h1>
+        <!-- <div class="modal-action"> -->
+          <form method="dialog">
+            <!-- if there is a button in form, it will close the modal -->
+            <button class="btn  ">Close confirmation</button>
+          </form>
+         
+    </div>
+  </div>
+</dialog>
+                 <!-- modal end -->
+            </div>
 
 
 
         </div>
     </div>
 
+
+    
     <!-- card 2 -->
-    <div hidden class="card bg-base-100   shadow-sm border-blue-200 md:grid md:grid-cols-2 py-4  container mx-auto mt-10 px-4 ">
+    <div hidden
+        class="card bg-base-100   shadow-sm border-blue-200 md:grid md:grid-cols-2 py-4  container mx-auto mt-10 px-4 ">
         <!-- first part -->
 
         <figure>
@@ -158,20 +178,21 @@
 
             <!--  -->
             <h2 class="card-title">Donate for Flood Relief in Feni,Bangladesh</h2>
-            <p class=" text-[#918c8c]"> The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
+            <p class=" text-[#918c8c]"> The recent floods in Feni have devastated local communities, leading to severe
+                disruption and loss. Your generous donation will help provide immediate aid, including food, clean
+                water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support
+                and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a
+                real difference. Please consider donating today to assist those in urgent need.</p>
 
 
-           <div class="flex flex-col gap-3 w-full">
-  <input
-    type="text"
-    placeholder="Write Donation Amount"
-    class="w-full h-11 px-4 rounded-md border border-base-300 text-[#baadad] placeholder:text-[#baadad] focus:outline-none"
-  />
+            <div class="flex flex-col gap-3 w-full">
+                <input type="text" placeholder="Write Donation Amount"
+                    class="w-full h-11 px-4 rounded-md border border-base-300 text-[#baadad] placeholder:text-[#baadad] focus:outline-none" />
 
-  <button class="w-full h-11 px-4 rounded-md text-black bg-[#B4F461]">
-    Donate Now
-  </button>
-</div>
+                <button class="w-full h-11 px-4 rounded-md text-black bg-[#B4F461]">
+                    Donate Now
+                </button>
+            </div>
 
 
         </div>
@@ -194,36 +215,38 @@
                     <img src="assets/coin.png" alt="Logo" class="h-5 w-5"> <!-- Optional height/width -->
                     <p class="ml-2 font-bold">5500 BDT</p>
                 </div>
-                
+
             </div>
 
-            
+
 
             <!--  -->
             <h2 class="card-title">Aid for Injured in the Quota Movement</h2>
-            <p class=" text-[#918c8c]"> The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.</p>
+            <p class=" text-[#918c8c]"> The recent Quota movement has resulted in numerous injuries and significant
+                hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation,
+                and necessary supplies to those affected. By contributing, you help ensure that injured individuals
+                receive the care and support they need during this challenging time. Every donation plays a vital role
+                in alleviating their suffering and aiding in their recovery. Please consider making a donation to
+                support these brave individuals in their time of need.</p>
 
 
             <!-- <form action=""> 
                     <input class="py-2 pl-3 rounded-md border-base-300 text-[#baadad] " type="text" name="" id="" placeholder="Write Donation Amount">
                 </form> -->
-           <div class="flex flex-col gap-3 w-full">
-  <input
-    type="text"
-    placeholder="Write Donation Amount"
-    class="w-full h-11 px-4 rounded-md border border-base-300 text-[#baadad] placeholder:text-[#baadad] focus:outline-none"
-  />
+            <div class="flex flex-col gap-3 w-full">
+                <input type="text" placeholder="Write Donation Amount"
+                    class="w-full h-11 px-4 rounded-md border border-base-300 text-[#baadad] placeholder:text-[#baadad] focus:outline-none" />
 
-  <button class="w-full h-11 px-4 rounded-md text-black bg-[#B4F461]">
-    Donate
-  </button>
-</div>
+                <button class="w-full h-11 px-4 rounded-md text-black bg-[#B4F461]">
+                    Donate
+                </button>
+            </div>
 
 
 
             <!--  -->
 
-            
+
 
 
         </div>
@@ -231,7 +254,7 @@
 
 
 
-<script src="js/modal.js"></script>
+    <script src="js/modal.js"></script>
 
 
 </body>
