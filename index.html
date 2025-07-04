@@ -107,7 +107,7 @@
 
                 <div class="flex items-center">
                     <img src="assets/coin.png" alt="Logo" class="h-5 w-5"> <!-- Optional height/width -->
-                    <p class="ml-2 font-bold">5500 BDT</p>
+                    <p class="ml-2 font-bold"><span id="main-balance">500</span> BDT</p>
                 </div>
             </div>
 
@@ -120,13 +120,13 @@
 
 
             <div class="flex flex-col gap-3 w-full">
-  <input
+  <input id="input-amount"
     type="text"
     placeholder="Write Donation Amount"
     class="w-full h-11 px-4 rounded-md border border-base-300 text-[#baadad] placeholder:text-[#baadad] focus:outline-none"
   />
 
-  <button class="w-full h-11 px-4 rounded-md text-black bg-[#B4F461]">
+  <button id="donate-btn" class="w-full h-11 px-4 rounded-md text-black bg-[#B4F461]">
     Donate Now
   </button>
 </div>
@@ -137,7 +137,7 @@
     </div>
 
     <!-- card 2 -->
-    <div class="card bg-base-100   shadow-sm md:grid md:grid-cols-2 py-4  container mx-auto mt-2 px-4 ">
+    <div hidden class="card bg-base-100   shadow-sm border-blue-200 md:grid md:grid-cols-2 py-4  container mx-auto mt-10 px-4 ">
         <!-- first part -->
 
         <figure>
@@ -177,7 +177,7 @@
         </div>
     </div>
     <!-- card -3 -->
-    <div class="card bg-base-100   shadow-sm md:grid md:grid-cols-2 py-4  container mx-auto mt-2 px-4 ">
+    <div hidden class="  card bg-base-100   shadow-sm md:grid md:grid-cols-2 py-4  container mx-auto mt-10 px-4 ">
         <!-- first part -->
 
         <figure>
@@ -231,7 +231,7 @@
 
 
 
-
+<script src="js/modal.js"></script>
 
 
 </body>
