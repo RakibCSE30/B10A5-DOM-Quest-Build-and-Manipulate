@@ -1,4 +1,4 @@
-const { createElement } = require("react");
+ 
 
 console.log("Heloo ja");
 
@@ -18,12 +18,8 @@ document
     const mainBalance = getInnerText("main-balance");
     console.log(amount, mainBalance);
 
-    const p= createElement('p');
-    p.innerText=`Added: ${amount} Tk New balance ${mainBalance}`;
-    console.log(p);
     
-    document.getElementById('his-id').appendChild(p);
-    
+     
 
     // const balance=document.getElementById('main-balance').innerText;
     // mainBalance=parseFloat(balance);
@@ -38,7 +34,9 @@ document
 //   history button
 document.getElementById('history-btn').addEventListener('click',function(){
     console.log('history buuu');
-    window.location.href='/history.html';
+    window.location.href='/history.html'
+
+    
 
 
     
